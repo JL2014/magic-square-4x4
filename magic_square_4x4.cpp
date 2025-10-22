@@ -81,8 +81,8 @@ int main(int argc, char* argv[]) {
 
     if (argc == 17) input_values = const_cast<const char**>(argv + 1);
     else if (argc != 1) {
-      cerr << "Usage: " << argv[0] << " [16 entiers]" << endl
-           << "Aucune entrée → carré magique par défaut." << endl;
+      cerr << "Usage: " << argv[0] << " [16 numbers]" << endl
+           << "Without parameters → default magic square." << endl;
       return 1;
     }
 
@@ -115,7 +115,7 @@ int main(int argc, char* argv[]) {
         auto M = permute(A, p, q);
         if (isMagic(M)) {
           ++count;
-          cout << "--- Matrice " << count << " ---" << endl;
+          cout << "--- Disposition " << count << " ---" << endl;
           cout << "row=("; for (int i=0;i<4;i++) cout << p[i] << (i<3?",":""); cout << "), ";
           cout << "col=("; for (int i=0;i<4;i++) cout << q[i] << (i<3?",":""); cout << ")" << endl;
           for (i=0;i<4;i++) {
@@ -134,7 +134,7 @@ int main(int argc, char* argv[]) {
       }
     }
 
-    cerr << "Total: " << count << " matrices magiques trouvées." << endl;
+    cerr << "Total: " << count << " magic squares of squares found." << endl;
 
     for (auto& row : A) for (auto* x : row) { fmpz_clear(x); delete x; }
     for (auto& row : B) for (auto* x : row) { fmpz_clear(x); delete x; }
