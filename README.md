@@ -1,4 +1,4 @@
-# magic-square-4x4
+# magic-square-of-squares-4x4
 
 https://en.wikipedia.org/wiki/Magic_square_of_squares \
 http://www.multimagie.com/English/SquaresOfSquares.htm
