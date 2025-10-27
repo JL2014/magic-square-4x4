@@ -5,10 +5,12 @@ http://www.multimagie.com/English/SquaresOfSquares.htm
 - http://www.multimagie.com/English/SquaresOfSquares4_7.htm
 - http://www.multimagie.com/English/Supplement.htm
 
+```
 | (+ap+bq+cr+ds)² | (+ar–bs–cp+dq)² | (–as–br+cq+dp)² | (+aq–bp+cs–dr)² |
 | (–aq+bp+cs–dr)² | (+as+br+cq+dp)² | (+ar–bs+cp–dq)² | (+ap+bq–cr–ds)² |
 | (+ar+bs–cp–dq)² | (–ap+bq–cr+ds)² | (+aq+bp+cs+dr)² | (+as–br–cq+dp)² |
 | (–as+br–cq+dp)² | (–aq–bp+cs+dr)² | (–ap+bq+cr–ds)² | (+ar+bs+cp+dq)² |
+```
 
 S2 = (a² + b² + c² + d²)(p² + q² + r² + s²)
 
