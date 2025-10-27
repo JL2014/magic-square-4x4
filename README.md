@@ -1,7 +1,18 @@
 # magic-square-of-squares-4x4
 
 https://en.wikipedia.org/wiki/Magic_square_of_squares \
-http://www.multimagie.com/English/SquaresOfSquares.htm & http://www.multimagie.com/English/SquaresOfSquares4_7.htm
+http://www.multimagie.com/English/SquaresOfSquares.htm
+- http://www.multimagie.com/English/SquaresOfSquares4_7.htm
+- http://www.multimagie.com/English/Supplement.htm
+
+| (+ap+bq+cr+ds)² | (+ar–bs–cp+dq)² | (–as–br+cq+dp)² | (+aq–bp+cs–dr)² |
+| (–aq+bp+cs–dr)² | (+as+br+cq+dp)² | (+ar–bs+cp–dq)² | (+ap+bq–cr–ds)² |
+| (+ar+bs–cp–dq)² | (–ap+bq–cr+ds)² | (+aq+bp+cs+dr)² | (+as–br–cq+dp)² |
+| (–as+br–cq+dp)² | (–aq–bp+cs+dr)² | (–ap+bq+cr–ds)² | (+ar+bs+cp+dq)² |
+
+S2 = (a² + b² + c² + d²)(p² + q² + r² + s²)
+
+For S2 up to 42845, see list_4x4.csv
 
 ## usages
 
@@ -13,4 +24,5 @@ http://www.multimagie.com/English/SquaresOfSquares.htm & http://www.multimagie.c
 ./magic_square_4x4 37 23 21 22  1 18 47 17 38 11 13 33  3 43  2 31
 
 With only prime numbers:\
-./magic_square_4x4  29 191 673 137  71 647 139 257 277 211 163 601 653  97 101 251
+./magic_square_4x4  29 191 673 137  71 647 139 257 277 211 163 601 653  97 101 251\
+(S2 = 509020)
