@@ -1,7 +1,7 @@
 # magic-square-of-squares-4x4
 
 https://en.wikipedia.org/wiki/Magic_square_of_squares \
-http://www.multimagie.com/English/SquaresOfSquares.htm
+http://www.multimagie.com/English/SquaresOfSquares.htm & http://www.multimagie.com/English/SquaresOfSquares4_7.htm
 
 ## usages
 
