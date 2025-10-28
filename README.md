@@ -23,7 +23,7 @@ Diags: S2 = v01² + v06² + v11² + v16² = v04² + v07² + v10² + v13²
 ```
 S2 = (a² + b² + c² + d²)(p² + q² + r² + s²)
 
-For (a, b, c, d, p, q, r, s) between [-10,10], see list_4x4.csv (S2 up to 42845).
+For (a, b, c, d, p, q, r, s) between [-10,10], see [list_4x4.csv](https://github.com/JL2014/magic-square-of-squares-4x4/blob/main/list_4x4.csv) (S2 up to 42845).
 
 ## usages
 
